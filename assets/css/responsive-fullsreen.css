@@ -1,0 +1,83 @@
+@media (orientation: portrait) {
+    .bg {
+        height: 100%;
+        width: 100%;
+    }
+
+    .bg img {
+        max-height: 100%;
+        max-width: auto;
+        margin: auto;
+        position: absolute;
+    }
+
+    .swiper-pagination-fraction {
+        right: 4%;
+    }
+    .up-down {
+        right: 1%;
+    }
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+    .swiper-pagination-fraction {
+        right: 4%;
+    }
+
+   
+
+    section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+   
+    .next-page h3 a {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 900;
+        font-size: 40px;
+        font-style: italic;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .next-page h3 a {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+
+    section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .next-page h3 a {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        font-weight: 900;
+        font-size: 60px;
+        font-style: italic;
+    }
+
+}
+
